@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-25T21:51:58 CDT" name="Suite" finished-at="2022-10-25T21:52:04 CDT" duration-ms="6124">
+    <groups>
+    </groups>
+    <test started-at="2022-10-25T21:51:58 CDT" name="Test" finished-at="2022-10-25T21:52:04 CDT" duration-ms="6124">
+      <class name="com.employeeTest.EmployeeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeeTest.EmployeeTest@5038d0b5]" started-at="2022-10-25T21:51:58 CDT" name="setup" finished-at="2022-10-25T21:51:58 CDT" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createEmployee()[pri:0, instance:com.employeeTest.EmployeeTest@5038d0b5]" started-at="2022-10-25T21:51:58 CDT" name="createEmployee" finished-at="2022-10-25T21:52:00 CDT" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method signature="deleteWithZERO()[pri:0, instance:com.employeeTest.EmployeeTest@5038d0b5]" started-at="2022-10-25T21:52:00 CDT" name="deleteWithZERO" finished-at="2022-10-25T21:52:02 CDT" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWithZERO -->
+        <test-method signature="fetchUser()[pri:0, instance:com.employeeTest.EmployeeTest@5038d0b5]" started-at="2022-10-25T21:52:02 CDT" name="fetchUser" finished-at="2022-10-25T21:52:03 CDT" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchUser -->
+        <test-method signature="getEmployees()[pri:0, instance:com.employeeTest.EmployeeTest@5038d0b5]" started-at="2022-10-25T21:52:03 CDT" name="getEmployees" finished-at="2022-10-25T21:52:03 CDT" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployees -->
+        <test-method signature="deleteEmployee()[pri:0, instance:com.employeeTest.EmployeeTest@5038d0b5]" started-at="2022-10-25T21:52:03 CDT" name="deleteEmployee" finished-at="2022-10-25T21:52:04 CDT" depends-on-methods="com.employeeTest.EmployeeTest.createEmployee" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+      </class> <!-- com.employeeTest.EmployeeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
